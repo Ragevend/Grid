@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "module": "esNext",
+      "target": "esNext",
+      "lib": ["es6"],                  
+      "allowJs": true,
+      "checkJs": false,
+      "outDir": "./resources",
+      "resolveJsonModule": true,
+      "moduleResolution": "node",
+      "rootDir": "./sources", 
+      "declaration": false,
+      "baseUrl": ".",
+      "strict": true,
+      "noImplicitAny": true,
+      "typeRoots": ["./node_modules/@types", "./node_modules/@altv"]
+    },
+    "include": ["./sources/**/*.ts", "./resources/chat/**/*.js", "sources/ServerChunks/client/chat.js"]
+  }
