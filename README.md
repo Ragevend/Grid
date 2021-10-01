@@ -18,7 +18,7 @@
 ```
 npm install
 npx tsc
-.\alt-server.exe
+.\altv-server.exe
 ```
 
 *При необходимости изменить размер чанков в конфиге srvconfig.cfg. Находится в корневой папке сервера.*
